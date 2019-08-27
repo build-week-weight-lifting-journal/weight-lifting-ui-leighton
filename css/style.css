@@ -88,9 +88,9 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("
 #about {
 background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../Assets/Assets/Man-lift.jpg"); 
 }
-#services {
+#contact {
 background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../Assets/Assets/lift-dark.jpg")
 }
-#contact {
+#account {
 background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../Assets/Assets/man-mirror.jpg")
 }
