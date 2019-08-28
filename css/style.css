@@ -136,6 +136,39 @@ border-radius: 10%;
 background-color: #C8C8C8;
 } */
 
+button {
+	background-color: #ff5777;
+	color: white;
+	border-radius: 0.5em;
+	border: 2px solid white;;
+	text-align: center;
+	text-decoration: none;
+	font-size: 2rem;
+	margin: 4px 2px;
+	padding: 1%;
+	width: 15%;
+	cursor: pointer;
+	opacity: 0.75;
+}
+
+.viewing {
+	display: flex;
+	background: white;
+	justify-content: space-between;
+	margin: 2%;
+	height: 100%;
+}
+
+.words {
+	width: 50%;	
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
+.words h2 {
+	text-align: center;
+}
+
 .background span {
 	font-size: 1.4rem;
 	display: flex;
@@ -199,6 +232,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("
 		background-image: url("../Assets/Assets/Background.png");
 		background-repeat: no-repeat;
 		background-size: 93%;
+		
 	}
 	
 	.menu > ul {
@@ -222,6 +256,36 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("
 		display: flex;
 		align-content: space-evenly;
 		font-size: 1.3rem;
+		cursor: pointer;
+
 		}
+
+	button {
+		width: 50%;	
+	}
+
+	.viewing {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		background: white;
+		/* height: 100%; */
+		margin: 2%;
+	}
+
+	.product {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin: 15% 20% 5% 20%;
+	}
+	.words {
+		width: 100%;
+		position: center;
+		border-top: .25em solid #ff5777;
+		padding-top: 1em;
+	}
+		
 }
 	
