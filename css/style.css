@@ -161,13 +161,22 @@ button {
 	background: white;
 	justify-content: space-between;
 	margin: 2%;
-	height: 100%;
+	
+	height: auto;
+}
+
+.product img {
+	height: 500px;
+	width: auto;
+	/* border: 2px solid black; */
+	margin: 30% 30% 30%;
 }
 
 .words {
-	width: 50%;	
+	width: 40%;	
 	margin-bottom: 5%;
 	margin-top: 5%;
+	margin-right: 5%;
 }
 
 .words h2 {
@@ -283,15 +292,24 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("
 		justify-content: center;
 		background: white;
 		/* height: 100%; */
-		margin: 2%;
+		margin: 2%
 	}
 
 	.product {
 		display: flex;
-		flex-direction: column;
+		flex-direction: column; 
+		height: 100%;
 		justify-content: center;
-		margin: 15% 20% 5% 20%;
+		/* margin: auto;  */
 	}
+	
+	.product img {
+		height: 500px;
+		width: 50%;
+		/* border: 2px solid black; */
+		margin: 0 auto;
+	}
+
 	.words {
 		width: 100%;
 		position: center;
